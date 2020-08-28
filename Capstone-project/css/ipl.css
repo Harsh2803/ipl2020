@@ -1,0 +1,81 @@
+body{
+	    background-image: url(https://www.skype.rs/media/background/top-bg-texture.png);
+		padding: 1%; 
+		margin: 1%;
+}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+header{
+		background: #C0C0C0; /* Silver */
+		background-image: url("https://www.omlogic.com/images/hbo-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+nav{
+		text-align: center;
+}
+
+nav a{
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 10px;
+		margin: 1%; 
+		text-decoration: none; 
+		border-radius: 5px; 
+}
+.left img{
+		border: solid 2px #000000; /* Black */
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 15%;
+		margin-bottom: 15%;
+	    
+}
+.left {
+		background: #808000; /* Olive */ 
+		width: 22%;
+		float: left;
+		padding: 5% 0; 
+		background-image: url("https://m.hindustantimes.com/rf/image_size_444x250/HT/p2/2020/08/06/Pictures/_31cf2e22-d7e0-11ea-a06f-e722baeaa470.jpg");
+		
+}
+
+header h1{
+	text-align: center;
+	color: 	#ffffff;
+	font-family: serif;
+	font-weight: 900;
+	font-stretch: extra-expanded;
+}
+summary{
+	background: #C0C0C0; 
+	color: #000000;
+	display: inline-block;
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px; 
+}
+.right {
+		width: 76%;
+		display: inline-block;
+		padding-left: 2%;
+}
+html{
+		border-style: inset;
+	    border-color: #000000;
+	    border-width: 50px;
+}
+.right img{
+		border: solid 2px #000000; /* Black */
+		width: 30%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 7%;
+		margin-bottom: 7%;
+}
